@@ -20,6 +20,8 @@ body {
   position: relative;
 }
 
+
+
   .result {
     text-align: center;
   }
@@ -111,5 +113,9 @@ body {
         border: 2px solid rgba(0, 0, 0, 0.3);
       }
 
-
+@media screen and (max-width: 768px) {
+  .App {
+    width: 280px;
+  }
+}
 
